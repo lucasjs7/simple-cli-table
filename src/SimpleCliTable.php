@@ -74,7 +74,7 @@ class SimpleCliTable {
 
 	private function checkLengthColumns(): void {
 		for ($i = 0; $i < $this->numColumns; $i++) {
-			$this->lenColumns[$i] = max(array_map('strlen', array_column($this->data, $i)));
+			$this->lenColumns[$i] = max(array_map('mb_strlen', array_column($this->data, $i)));
 		}
 	}
 
