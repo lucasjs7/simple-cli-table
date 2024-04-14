@@ -1,5 +1,7 @@
 <?php
 
+namespace lucasjs7;
+
 class SimpleCliTable {
 
 	private array $lenColumns;
