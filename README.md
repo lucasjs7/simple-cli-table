@@ -1,4 +1,4 @@
-Simple Render Table CLI for PHP
+Simple Render CLI Table for PHP
 ===
 
 A simple lib to render tables in php.
