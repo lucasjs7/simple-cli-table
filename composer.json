@@ -1,0 +1,8 @@
+{
+	"name": "lucasjs7/simple-cli-table",
+	"description": "A simple lib to render tables in php.",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.0"
+	}
+}
