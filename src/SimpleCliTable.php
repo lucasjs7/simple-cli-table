@@ -1,6 +1,6 @@
 <?php
 
-namespace lucasjs7;
+namespace Lucasjs7;
 
 class SimpleCliTable {
 
