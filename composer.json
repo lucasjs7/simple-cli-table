@@ -2,6 +2,14 @@
 	"name": "lucasjs7/simple-cli-table",
 	"description": "A simple lib to render tables in php.",
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "lucasjs7",
+			"email": "lucasjs.developer@gmail.com",
+			"homepage": "https://github.com/lucasjs7",
+			"role": "Developer"
+		}
+	],
 	"require": {
 		"php": ">=8.0"
 	}
