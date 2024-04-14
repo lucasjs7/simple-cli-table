@@ -56,3 +56,10 @@ echo $simpleTableCli->render();
 | Carlos  | Felino    | 39 |
 +---------+-----------+----+
 ```
+
+Install using composer
+------
+
+```bash
+composer require lucasjs7/simple-cli-table
+```
