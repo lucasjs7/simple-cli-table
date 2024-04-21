@@ -88,7 +88,8 @@ class SimpleCliTable {
 
 	private function renderLine(array $line): string {
 		for ($i = 0; $i < $this->numColumns; $i++) {
-			$line[$i] = str_pad($line[$i], $this->lenColumns[$i], ' ');
+			$lenDiff = (int) ($this->lenColumns[$i] - mb_strlen($line[$i]));
+			$line[$i] = $line[$i] . str_repeat(' ', $lenDiff);
 		}
 
 		return '| ' . implode(' | ', $line) . " |\n";
