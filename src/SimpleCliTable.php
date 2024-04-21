@@ -64,10 +64,8 @@ class SimpleCliTable {
 		return $t->render();
 	}
 
-	private function checkNumColumns(
-		?array $line = null
-	): void {
-		$currentLine = $line ?: ($this->data[0] ?? []);
+	private function checkNumColumns(): void {
+		$currentLine = $this->data[0] ?? [];
 
 		$this->numColumns = count($currentLine);
 	}
