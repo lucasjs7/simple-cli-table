@@ -5,7 +5,7 @@ A simple lib to render tables in php.
 
 ### Example 1
 
-```bash
+```php
 # Code:
 $data = [
 	['First Name', 'Last Name', 'Age'],
@@ -30,7 +30,7 @@ echo SimpleCliTable::build($data);
 
 ### Example 2
 
-```bash
+```php
 # Code:
 $data = [
 	['Steve',      'Magal',     '37'],
@@ -60,6 +60,6 @@ echo $simpleTableCli->render();
 Install using composer
 ------
 
-```bash
+```php
 composer require lucasjs7/simple-cli-table
 ```
